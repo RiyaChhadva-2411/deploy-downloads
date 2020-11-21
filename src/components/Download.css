@@ -1,0 +1,47 @@
+html{
+    margin-top: 100px;
+}
+
+img{
+    height:202px;
+    width: 326px;
+    border-radius: 5px;
+   
+}
+
+/*Large devices only*/
+@media(min-width: 1200px){
+    .description{
+        font-size:18px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    
+}
+
+/*For medium devices*/
+@media(min-width:992px) and (max-width:1199px){
+   .title ,.description, .btn{
+       margin-left: 50px;
+
+   }
+  
+
+}
+
+/*For small devices*/
+@media (min-width:768px) and (max-width:991px){
+    .title, .description, .btn{
+        margin-left:30%;
+        
+    }
+}
+
+/*For extra small devices*/
+@media(min-width:576px) and (max-width: 767px){
+    .title, .description, .btn{
+        margin-left: 50%;
+        
+    }
+}
